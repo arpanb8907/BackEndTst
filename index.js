@@ -1,5 +1,6 @@
 import express from 'express' 
 import 'dotenv/config'
+
 const app = express()
 const port = 4000
 
@@ -8,7 +9,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/user',(req,res)=>{
-  res.send(alert("Routed to user"))
+  res.send("Routed to user page")
 })
 
 
