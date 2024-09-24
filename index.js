@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/user',(req,res)=>{
-  res.send("Routed to user")
+  res.send(alert("Routed to user"))
 })
 
 
